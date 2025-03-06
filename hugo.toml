@@ -1,0 +1,27 @@
+baseURL = "https://mysteryland.biz/"
+languageCode = "de-de"
+title = "Prüfungskatalog & Projektarbeit"
+theme = "hugo-book"
+
+[params]
+  description = "Prüfungskatalog & Projektarbeit"
+  BookSection = '*'
+  BookTheme = 'auto'
+  author = "devsfiae"
+  github = "https://devsfiae.github.io/solution_architects/"
+[taxonomies]
+
+  category = "categories"
+  tag = "tags"
+  pruefungsteil = "pruefungsteile"
+
+[[menu.main]]
+name = "Prüfungen"
+weight = 1
+url = "/exams/"
+
+[[menu.main]]
+name = "Projektarbeit"
+weight = 2
+url = "/project-work/"
+
